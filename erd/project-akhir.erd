@@ -1,0 +1,1419 @@
+{
+    "documentName": "project-akhir-OOP",
+    "lastUpdatedAt": "2026-11-24T02:38:38.829Z",
+    "tableViewModels": [
+        {
+            "tableModel": {
+                "tableModelId": "c1e2874b-81b5-4c37-bb13-3598a399e8e8",
+                "physicalName": "pelanggan",
+                "logicalName": "Pelanggan",
+                "columnModelIds": [
+                    "88b9a5ad-ad2e-45c3-8d22-143ffa4dd967",
+                    "f6b1e747-da95-4194-81d2-396697726b18",
+                    "e4aea07e-b96d-4130-833a-13a89c86eed5",
+                    "d9af853c-5888-461e-b9e2-1cbb70acbe99",
+                    "d329a61a-0cad-4892-887e-0c2476012595"
+                ],
+                "description": "Data pelanggan bengkel motor"
+            },
+            "top": -160,
+            "left": -1050,
+            "headerBackgroundColor": {
+                "red": 187,
+                "green": 222,
+                "blue": 251
+            },
+            "headerForegroundColor": {
+                "red": 13,
+                "green": 71,
+                "blue": 161
+            },
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "tableModel": {
+                "tableModelId": "c5234bbb-8c57-4529-9dbf-a0703cc7b25e",
+                "physicalName": "kendaraan",
+                "logicalName": "Kendaraan",
+                "columnModelIds": [
+                    "c1751f53-7914-4a9b-9d4f-f57c8ef391f1",
+                    "fac0ad59-b8c6-418e-90ca-7b667983c904",
+                    "0b40bd06-5867-45d7-a459-d04dd37895af",
+                    "4d16d815-4274-41f5-9609-b907ca1d9d2e",
+                    "c1dbbf97-d7e7-452f-ac47-b3c8ecb2f226",
+                    "ea4ecd35-5b44-4fef-9cf2-121930078bf0",
+                    "9cfac431-0dfb-4f00-a67e-b58a047cccc2"
+                ],
+                "description": "Data kendaraan motor pelanggan"
+            },
+            "top": -160,
+            "left": -500,
+            "headerBackgroundColor": {
+                "red": 200,
+                "green": 230,
+                "blue": 201
+            },
+            "headerForegroundColor": {
+                "red": 27,
+                "green": 94,
+                "blue": 32
+            },
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "tableModel": {
+                "tableModelId": "98a70f2b-c6db-4d8e-b105-77bd2e1ebcc3",
+                "physicalName": "karyawan",
+                "logicalName": "Karyawan",
+                "columnModelIds": [
+                    "c18b1c01-00ec-44aa-8cd8-c77cd220cb46",
+                    "b40e8e01-b7b9-48c4-abcd-ca9c3684f9c1",
+                    "faab3bba-1ef1-48a8-a5fb-ce0f3ce87d93",
+                    "4e3b89d2-6119-4cbd-b321-250bd8b4d9a5",
+                    "23196c81-a1de-4728-8329-55dc7f6707b0",
+                    "078e7414-ee1a-4d0f-9d1e-a9f81733f98f"
+                ],
+                "description": "Data karyawan bengkel"
+            },
+            "top": -160,
+            "left": 100,
+            "headerBackgroundColor": {
+                "red": 255,
+                "green": 224,
+                "blue": 178
+            },
+            "headerForegroundColor": {
+                "red": 230,
+                "green": 81,
+                "blue": 0
+            },
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "tableModel": {
+                "tableModelId": "4bd64657-24d6-4dfe-ba1d-96c90656c602",
+                "physicalName": "layanan",
+                "logicalName": "Layanan",
+                "columnModelIds": [
+                    "b1fbf0ab-7e9c-41ee-bf71-539e2c300289",
+                    "d39a3138-a68f-489d-ab64-b9b4d7b1e835",
+                    "d3307d2f-ab0d-4fec-9533-0a898d786ae7",
+                    "32ac4f19-ef94-48a2-8f7c-8f39b31c3da9"
+                ],
+                "description": "Daftar jenis layanan servis"
+            },
+            "top": -160,
+            "left": 650,
+            "headerBackgroundColor": {
+                "red": 225,
+                "green": 190,
+                "blue": 231
+            },
+            "headerForegroundColor": {
+                "red": 106,
+                "green": 27,
+                "blue": 154
+            },
+            "createdAt": "2026-11-24T02:26:53.822Z"
+        },
+        {
+            "tableModel": {
+                "tableModelId": "12df557c-2c84-4856-b6fe-f645579d5712",
+                "physicalName": "servis",
+                "logicalName": "Servis",
+                "columnModelIds": [
+                    "1a1b61bd-9bd7-4a3c-9126-3eed772fa2bf",
+                    "fc9047c0-8473-4720-b0a1-148b8a61f2b4",
+                    "456d8626-5f15-47b3-948e-5eac38205f98",
+                    "c0b84b59-439b-4bf0-989c-e6d7e9376742",
+                    "a1e99ebe-42d4-4aa1-9252-03fd696e041c",
+                    "51288f32-21d9-4200-8ed2-b658de45064a",
+                    "ddbfb6df-1099-4028-8396-ea0104ab4ee0",
+                    "e6069131-4b58-43e1-82c0-267fdfc75ec9",
+                    "4eb47722-eb77-4d1a-a459-f4579161217c"
+                ],
+                "description": "Transaksi servis kendaraan"
+            },
+            "top": 220,
+            "left": 250,
+            "headerBackgroundColor": {
+                "red": 255,
+                "green": 249,
+                "blue": 196
+            },
+            "headerForegroundColor": {
+                "red": 245,
+                "green": 127,
+                "blue": 23
+            },
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "tableModel": {
+                "tableModelId": "c49f09c5-7865-4d0e-ad23-4fe606874f1a",
+                "physicalName": "pembayaran",
+                "logicalName": "Pembayaran",
+                "columnModelIds": [
+                    "a8405267-09b1-44e4-8bc8-4cbc0e3012e4",
+                    "811445c4-35a4-4901-a0f3-677b11f5666f",
+                    "d780fc15-d515-4e30-b693-0dc61cc6d668",
+                    "f3230e24-06dc-4737-bc09-fd72697a3efa",
+                    "65b3e2c1-bdbe-48cd-8ccd-768200b72a99",
+                    "f339066e-103c-4099-ba98-7089be39f546"
+                ],
+                "description": "Data pembayaran transaksi servis"
+            },
+            "top": 660,
+            "left": 250,
+            "headerBackgroundColor": {
+                "red": 248,
+                "green": 187,
+                "blue": 208
+            },
+            "headerForegroundColor": {
+                "red": 136,
+                "green": 14,
+                "blue": 79
+            },
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        }
+    ],
+    "columnGroupModels": [],
+    "columnModels": [
+        {
+            "columnModelId": "078e7414-ee1a-4d0f-9d1e-a9f81733f98f",
+            "columnShareModelId": "3847083c-0068-4ebd-b61b-506bae545ae8"
+        },
+        {
+            "columnModelId": "0b40bd06-5867-45d7-a459-d04dd37895af",
+            "columnShareModelId": "208b7945-cecd-4087-abb2-99f161b54a4f",
+            "notNull": true,
+            "unique": true
+        },
+        {
+            "columnModelId": "1a1b61bd-9bd7-4a3c-9126-3eed772fa2bf",
+            "columnShareModelId": "601835f6-2f95-4967-9a97-5499e05c42a9",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "23196c81-a1de-4728-8329-55dc7f6707b0",
+            "columnShareModelId": "fca685bf-735a-4d95-8f9f-9b003fa4343c"
+        },
+        {
+            "columnModelId": "32ac4f19-ef94-48a2-8f7c-8f39b31c3da9",
+            "columnShareModelId": "d918a1c4-490d-4b6b-8372-2b8af8198b07",
+            "notNull": true,
+            "defaultValue": "0.00"
+        },
+        {
+            "columnModelId": "456d8626-5f15-47b3-948e-5eac38205f98",
+            "columnShareModelId": "cbdc3d5e-2dee-4b0b-9a02-f64a1000eb7f",
+            "notNull": true
+        },
+        {
+            "columnModelId": "4d16d815-4274-41f5-9609-b907ca1d9d2e",
+            "columnShareModelId": "9f9c61f0-d745-4853-93fb-680c6e760bec",
+            "notNull": true
+        },
+        {
+            "columnModelId": "4e3b89d2-6119-4cbd-b321-250bd8b4d9a5",
+            "columnShareModelId": "c5a4b161-8787-4093-b76f-8e74126188fe"
+        },
+        {
+            "columnModelId": "4eb47722-eb77-4d1a-a459-f4579161217c",
+            "columnShareModelId": "62c30a34-3b94-4b9e-b75b-3d0a9a114c98",
+            "notNull": true,
+            "defaultValue": "0.00"
+        },
+        {
+            "columnModelId": "51288f32-21d9-4200-8ed2-b658de45064a",
+            "columnShareModelId": "741bb65d-9432-452b-9b70-05a351c8d644"
+        },
+        {
+            "columnModelId": "65b3e2c1-bdbe-48cd-8ccd-768200b72a99",
+            "columnShareModelId": "80c0c370-7634-4fcf-b572-4c6df48dd05e",
+            "notNull": true
+        },
+        {
+            "columnModelId": "811445c4-35a4-4901-a0f3-677b11f5666f",
+            "columnShareModelId": "c7b157eb-c920-4cf1-9157-7840f2e5028c",
+            "notNull": true,
+            "unique": true
+        },
+        {
+            "columnModelId": "88b9a5ad-ad2e-45c3-8d22-143ffa4dd967",
+            "columnShareModelId": "bbbae9b1-b066-40fb-92e4-dfb81215a7a3",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "9cfac431-0dfb-4f00-a67e-b58a047cccc2",
+            "columnShareModelId": "5786acd0-5770-4426-a405-cb499d535a65"
+        },
+        {
+            "columnModelId": "a1e99ebe-42d4-4aa1-9252-03fd696e041c",
+            "columnShareModelId": "59c2e974-6d9a-4387-a45a-e4bf1338cac9",
+            "notNull": true
+        },
+        {
+            "columnModelId": "a8405267-09b1-44e4-8bc8-4cbc0e3012e4",
+            "columnShareModelId": "b84a2da8-3892-48fe-8490-b096556e12ec",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "b1fbf0ab-7e9c-41ee-bf71-539e2c300289",
+            "columnShareModelId": "0923e542-8a24-41f6-b133-20a5b63b4448",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "b40e8e01-b7b9-48c4-abcd-ca9c3684f9c1",
+            "columnShareModelId": "33485ff8-58ce-4197-b7a6-d3bbbcfa3a1c",
+            "notNull": true
+        },
+        {
+            "columnModelId": "c0b84b59-439b-4bf0-989c-e6d7e9376742",
+            "columnShareModelId": "3fb3c8b2-4510-440d-8b89-fa88cef69307",
+            "notNull": true
+        },
+        {
+            "columnModelId": "c1751f53-7914-4a9b-9d4f-f57c8ef391f1",
+            "columnShareModelId": "df950284-bacf-48cb-8c87-c86d96bc3b71",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "c18b1c01-00ec-44aa-8cd8-c77cd220cb46",
+            "columnShareModelId": "81beda60-2d2e-4f12-9625-3f1c15c1930e",
+            "primaryKey": true,
+            "notNull": true,
+            "autoIncrement": true
+        },
+        {
+            "columnModelId": "c1dbbf97-d7e7-452f-ac47-b3c8ecb2f226",
+            "columnShareModelId": "6e60bd1d-3351-461f-af8d-0b233872c5ec"
+        },
+        {
+            "columnModelId": "d329a61a-0cad-4892-887e-0c2476012595",
+            "columnShareModelId": "abfa3761-1277-48f4-b3b1-7d759f631cfb"
+        },
+        {
+            "columnModelId": "d3307d2f-ab0d-4fec-9533-0a898d786ae7",
+            "columnShareModelId": "41dcd9f3-7faa-4e53-bebf-2761a41a6b08"
+        },
+        {
+            "columnModelId": "d39a3138-a68f-489d-ab64-b9b4d7b1e835",
+            "columnShareModelId": "939bf4cc-dc9a-443c-88ec-6fd2c7eff43b",
+            "notNull": true
+        },
+        {
+            "columnModelId": "d780fc15-d515-4e30-b693-0dc61cc6d668",
+            "columnShareModelId": "d0c854ec-7492-4b70-94b8-9566b9bc21eb",
+            "notNull": true
+        },
+        {
+            "columnModelId": "d9af853c-5888-461e-b9e2-1cbb70acbe99",
+            "columnShareModelId": "56780f78-b6d7-4304-a770-01ce99e9b2f8"
+        },
+        {
+            "columnModelId": "ddbfb6df-1099-4028-8396-ea0104ab4ee0",
+            "columnShareModelId": "a6c3fdb2-11c9-4d7f-b766-aa52577a65f7"
+        },
+        {
+            "columnModelId": "e4aea07e-b96d-4130-833a-13a89c86eed5",
+            "columnShareModelId": "331c6f09-1654-4293-8a1e-9eead71601fc",
+            "notNull": true
+        },
+        {
+            "columnModelId": "e6069131-4b58-43e1-82c0-267fdfc75ec9",
+            "columnShareModelId": "7cbf8e7b-e47a-4a74-828c-6661cbeda25b",
+            "notNull": true
+        },
+        {
+            "columnModelId": "ea4ecd35-5b44-4fef-9cf2-121930078bf0",
+            "columnShareModelId": "de47308b-5ad6-409c-ba2b-cd96295f075e"
+        },
+        {
+            "columnModelId": "f3230e24-06dc-4737-bc09-fd72697a3efa",
+            "columnShareModelId": "f04f47dd-d1f3-4147-8b80-9f89e36adb51",
+            "notNull": true
+        },
+        {
+            "columnModelId": "f339066e-103c-4099-ba98-7089be39f546",
+            "columnShareModelId": "11fb4236-706b-413e-aea1-30d58e97e8f0",
+            "notNull": true
+        },
+        {
+            "columnModelId": "f6b1e747-da95-4194-81d2-396697726b18",
+            "columnShareModelId": "08997640-88f6-4e9a-9ce5-739681e9d803",
+            "notNull": true
+        },
+        {
+            "columnModelId": "faab3bba-1ef1-48a8-a5fb-ce0f3ce87d93",
+            "columnShareModelId": "5f49a6d0-09fe-4b0f-95e3-2a862afef792",
+            "notNull": true
+        },
+        {
+            "columnModelId": "fac0ad59-b8c6-418e-90ca-7b667983c904",
+            "columnShareModelId": "e7cede44-0b73-41fb-bf04-b01fae75729a",
+            "notNull": true
+        },
+        {
+            "columnModelId": "fc9047c0-8473-4720-b0a1-148b8a61f2b4",
+            "columnShareModelId": "d96285f8-b69e-4654-92f7-c5980d2e7b61",
+            "notNull": true
+        }
+    ],
+    "columnShareModels": [
+        {
+            "columnShareModelId": "56780f78-b6d7-4304-a770-01ce99e9b2f8",
+            "physicalName": "alamat",
+            "logicalName": "Alamat",
+            "columnTypeId": 322,
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "columnShareModelId": "c5a4b161-8787-4093-b76f-8e74126188fe",
+            "physicalName": "alamat",
+            "logicalName": "Alamat",
+            "columnTypeId": 322,
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "41dcd9f3-7faa-4e53-bebf-2761a41a6b08",
+            "physicalName": "deskripsi",
+            "logicalName": "Deskripsi",
+            "columnTypeId": 322,
+            "createdAt": "2026-11-24T02:26:53.822Z"
+        },
+        {
+            "columnShareModelId": "d918a1c4-490d-4b6b-8372-2b8af8198b07",
+            "physicalName": "harga_layanan",
+            "logicalName": "Harga Layanan",
+            "columnTypeId": 45,
+            "precision": "10",
+            "scale": "2",
+            "createdAt": "2026-11-24T02:26:53.822Z"
+        },
+        {
+            "columnShareModelId": "81beda60-2d2e-4f12-9625-3f1c15c1930e",
+            "physicalName": "id_karyawan",
+            "logicalName": "ID Karyawan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "cbdc3d5e-2dee-4b0b-9a02-f64a1000eb7f",
+            "physicalName": "id_karyawan",
+            "logicalName": "ID Karyawan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "d96285f8-b69e-4654-92f7-c5980d2e7b61",
+            "physicalName": "id_kendaraan",
+            "logicalName": "ID Kendaraan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "df950284-bacf-48cb-8c87-c86d96bc3b71",
+            "physicalName": "id_kendaraan",
+            "logicalName": "ID Kendaraan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "0923e542-8a24-41f6-b133-20a5b63b4448",
+            "physicalName": "id_layanan",
+            "logicalName": "ID Layanan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:26:53.822Z"
+        },
+        {
+            "columnShareModelId": "3fb3c8b2-4510-440d-8b89-fa88cef69307",
+            "physicalName": "id_layanan",
+            "logicalName": "ID Layanan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "bbbae9b1-b066-40fb-92e4-dfb81215a7a3",
+            "physicalName": "id_pelanggan",
+            "logicalName": "ID Pelanggan",
+            "columnTypeId": 15,
+            "description": "Primary key pelanggan",
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "columnShareModelId": "e7cede44-0b73-41fb-bf04-b01fae75729a",
+            "physicalName": "id_pelanggan",
+            "logicalName": "ID Pelanggan",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "b84a2da8-3892-48fe-8490-b096556e12ec",
+            "physicalName": "id_pembayaran",
+            "logicalName": "ID Pembayaran",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "601835f6-2f95-4967-9a97-5499e05c42a9",
+            "physicalName": "id_servis",
+            "logicalName": "ID Servis",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "c7b157eb-c920-4cf1-9157-7840f2e5028c",
+            "physicalName": "id_servis",
+            "logicalName": "ID Servis",
+            "columnTypeId": 15,
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "3847083c-0068-4ebd-b61b-506bae545ae8",
+            "physicalName": "jabatan",
+            "logicalName": "Jabatan",
+            "columnTypeId": 312,
+            "precision": "50",
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "741bb65d-9432-452b-9b70-05a351c8d644",
+            "physicalName": "jam_servis",
+            "logicalName": "Jam Servis",
+            "columnTypeId": 131,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "331c6f09-1654-4293-8a1e-9eead71601fc",
+            "physicalName": "jenis_kelamin",
+            "logicalName": "Jenis Kelamin",
+            "columnTypeId": 2101,
+            "optionExpression": "('L','P')",
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "columnShareModelId": "5f49a6d0-09fe-4b0f-95e3-2a862afef792",
+            "physicalName": "jenis_kelamin",
+            "logicalName": "Jenis Kelamin",
+            "columnTypeId": 2101,
+            "optionExpression": "('L','P')",
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "a6c3fdb2-11c9-4d7f-b766-aa52577a65f7",
+            "physicalName": "keluhan",
+            "logicalName": "Keluhan",
+            "columnTypeId": 322,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "9f9c61f0-d745-4853-93fb-680c6e760bec",
+            "physicalName": "merek_motor",
+            "logicalName": "Merek Motor",
+            "columnTypeId": 312,
+            "precision": "50",
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "f04f47dd-d1f3-4147-8b80-9f89e36adb51",
+            "physicalName": "metode_pembayaran",
+            "logicalName": "Metode Pembayaran",
+            "columnTypeId": 2101,
+            "optionExpression": "('Tunai','Transfer','QRIS')",
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "33485ff8-58ce-4197-b7a6-d3bbbcfa3a1c",
+            "physicalName": "nama_karyawan",
+            "logicalName": "Nama Karyawan",
+            "columnTypeId": 312,
+            "precision": "100",
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "939bf4cc-dc9a-443c-88ec-6fd2c7eff43b",
+            "physicalName": "nama_layanan",
+            "logicalName": "Nama Layanan",
+            "columnTypeId": 312,
+            "precision": "100",
+            "createdAt": "2026-11-24T02:26:53.822Z"
+        },
+        {
+            "columnShareModelId": "08997640-88f6-4e9a-9ce5-739681e9d803",
+            "physicalName": "nama_pelanggan",
+            "logicalName": "Nama Pelanggan",
+            "columnTypeId": 312,
+            "precision": "100",
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "columnShareModelId": "abfa3761-1277-48f4-b3b1-7d759f631cfb",
+            "physicalName": "no_telepon",
+            "logicalName": "No. Telepon",
+            "columnTypeId": 312,
+            "precision": "20",
+            "createdAt": "2026-11-24T02:26:35.949Z"
+        },
+        {
+            "columnShareModelId": "fca685bf-735a-4d95-8f9f-9b003fa4343c",
+            "physicalName": "no_telepon",
+            "logicalName": "No. Telepon",
+            "columnTypeId": 312,
+            "precision": "20",
+            "createdAt": "2026-11-24T02:26:48.424Z"
+        },
+        {
+            "columnShareModelId": "208b7945-cecd-4087-abb2-99f161b54a4f",
+            "physicalName": "nomor_polisi",
+            "logicalName": "Nomor Polisi",
+            "columnTypeId": 312,
+            "precision": "15",
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "11fb4236-706b-413e-aea1-30d58e97e8f0",
+            "physicalName": "status_pembayaran",
+            "logicalName": "Status Pembayaran",
+            "columnTypeId": 2101,
+            "optionExpression": "('Lunas','Belum Lunas')",
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "7cbf8e7b-e47a-4a74-828c-6661cbeda25b",
+            "physicalName": "status_servis",
+            "logicalName": "Status Servis",
+            "columnTypeId": 2101,
+            "optionExpression": "('Menunggu','Dikerjakan','Selesai')",
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "de47308b-5ad6-409c-ba2b-cd96295f075e",
+            "physicalName": "tahun_motor",
+            "logicalName": "Tahun Motor",
+            "columnTypeId": 151,
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "d0c854ec-7492-4b70-94b8-9566b9bc21eb",
+            "physicalName": "tanggal_pembayaran",
+            "logicalName": "Tanggal Pembayaran",
+            "columnTypeId": 101,
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "59c2e974-6d9a-4387-a45a-e4bf1338cac9",
+            "physicalName": "tanggal_servis",
+            "logicalName": "Tanggal Servis",
+            "columnTypeId": 101,
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "6e60bd1d-3351-461f-af8d-0b233872c5ec",
+            "physicalName": "tipe_motor",
+            "logicalName": "Tipe Motor",
+            "columnTypeId": 312,
+            "precision": "50",
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        },
+        {
+            "columnShareModelId": "62c30a34-3b94-4b9e-b75b-3d0a9a114c98",
+            "physicalName": "total_biaya",
+            "logicalName": "Total Biaya",
+            "columnTypeId": 45,
+            "precision": "10",
+            "scale": "2",
+            "createdAt": "2026-11-24T02:27:02.141Z"
+        },
+        {
+            "columnShareModelId": "80c0c370-7634-4fcf-b572-4c6df48dd05e",
+            "physicalName": "total_pembayaran",
+            "logicalName": "Total Pembayaran",
+            "columnTypeId": 45,
+            "precision": "10",
+            "scale": "2",
+            "createdAt": "2026-11-24T02:27:09.114Z"
+        },
+        {
+            "columnShareModelId": "5786acd0-5770-4426-a405-cb499d535a65",
+            "physicalName": "warna_motor",
+            "logicalName": "Warna Motor",
+            "columnTypeId": 312,
+            "precision": "30",
+            "createdAt": "2026-11-24T02:26:42.467Z"
+        }
+    ],
+    "relationViewModels": [
+        {
+            "relationModel": {
+                "relationModelId": "7d88f040-ec96-4469-954b-6efe9e1f3ca5",
+                "relationName": "servis_pembayaran",
+                "parentTableModelId": "12df557c-2c84-4856-b6fe-f645579d5712",
+                "parentCardinality": "1",
+                "childTableModelId": "c49f09c5-7865-4d0e-ad23-4fe606874f1a",
+                "childCardinality": "0..1",
+                "relationPairs": [
+                    {
+                        "parentColumnModelId": "1a1b61bd-9bd7-4a3c-9126-3eed772fa2bf",
+                        "childColumnModelId": "811445c4-35a4-4901-a0f3-677b11f5666f"
+                    }
+                ],
+                "onUpdateAction": "CASCADE",
+                "onDeleteAction": "RESTRICT"
+            },
+            "lineViewModel": {
+                "strokeWidth": 1,
+                "edges": [],
+                "orthogonalLines": [],
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            },
+            "labelViewModel": {
+                "label": "servis_pembayaran",
+                "position": {
+                    "segment": -1,
+                    "fraction": 0,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                },
+                "style": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "fontSize": 10
+                }
+            },
+            "createdAt": "2026-11-24T02:27:53.109Z"
+        },
+        {
+            "relationModel": {
+                "relationModelId": "a9bc4afd-859c-4758-a4a8-61ac1e1954f7",
+                "relationName": "kendaraan_servis",
+                "parentTableModelId": "c5234bbb-8c57-4529-9dbf-a0703cc7b25e",
+                "parentCardinality": "1",
+                "childTableModelId": "12df557c-2c84-4856-b6fe-f645579d5712",
+                "childCardinality": "0..N",
+                "relationPairs": [
+                    {
+                        "parentColumnModelId": "c1751f53-7914-4a9b-9d4f-f57c8ef391f1",
+                        "childColumnModelId": "fc9047c0-8473-4720-b0a1-148b8a61f2b4"
+                    }
+                ],
+                "onUpdateAction": "CASCADE",
+                "onDeleteAction": "RESTRICT"
+            },
+            "lineViewModel": {
+                "strokeWidth": 1,
+                "edges": [],
+                "orthogonalLines": [],
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            },
+            "labelViewModel": {
+                "label": "kendaraan_servis",
+                "position": {
+                    "segment": -1,
+                    "fraction": 0,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                },
+                "style": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "fontSize": 10
+                }
+            },
+            "createdAt": "2026-11-24T02:27:34.125Z"
+        },
+        {
+            "relationModel": {
+                "relationModelId": "bc9ddd03-0b78-4143-a437-5e2410660b4f",
+                "relationName": "karyawan_servis",
+                "parentTableModelId": "98a70f2b-c6db-4d8e-b105-77bd2e1ebcc3",
+                "parentCardinality": "1",
+                "childTableModelId": "12df557c-2c84-4856-b6fe-f645579d5712",
+                "childCardinality": "0..N",
+                "relationPairs": [
+                    {
+                        "parentColumnModelId": "c18b1c01-00ec-44aa-8cd8-c77cd220cb46",
+                        "childColumnModelId": "456d8626-5f15-47b3-948e-5eac38205f98"
+                    }
+                ],
+                "onUpdateAction": "CASCADE",
+                "onDeleteAction": "RESTRICT"
+            },
+            "lineViewModel": {
+                "strokeWidth": 1,
+                "edges": [],
+                "orthogonalLines": [],
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            },
+            "labelViewModel": {
+                "label": "karyawan_servis",
+                "position": {
+                    "segment": -1,
+                    "fraction": 0,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                },
+                "style": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "fontSize": 10
+                }
+            },
+            "createdAt": "2026-11-24T02:27:41.246Z"
+        },
+        {
+            "relationModel": {
+                "relationModelId": "c31ddd3e-2449-4420-a174-765f585c96db",
+                "relationName": "layanan_servis",
+                "parentTableModelId": "4bd64657-24d6-4dfe-ba1d-96c90656c602",
+                "parentCardinality": "1",
+                "childTableModelId": "12df557c-2c84-4856-b6fe-f645579d5712",
+                "childCardinality": "0..N",
+                "relationPairs": [
+                    {
+                        "parentColumnModelId": "b1fbf0ab-7e9c-41ee-bf71-539e2c300289",
+                        "childColumnModelId": "c0b84b59-439b-4bf0-989c-e6d7e9376742"
+                    }
+                ],
+                "onUpdateAction": "CASCADE",
+                "onDeleteAction": "RESTRICT"
+            },
+            "lineViewModel": {
+                "strokeWidth": 1,
+                "edges": [],
+                "orthogonalLines": [],
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            },
+            "labelViewModel": {
+                "label": "layanan_servis",
+                "position": {
+                    "segment": -1,
+                    "fraction": 0,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                },
+                "style": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "fontSize": 10
+                }
+            },
+            "createdAt": "2026-11-24T02:27:47.767Z"
+        },
+        {
+            "relationModel": {
+                "relationModelId": "f0f7e6fc-d0e7-4078-80ca-97480a7e826f",
+                "relationName": "pelanggan_kendaraan",
+                "parentTableModelId": "c1e2874b-81b5-4c37-bb13-3598a399e8e8",
+                "parentCardinality": "1",
+                "childTableModelId": "c5234bbb-8c57-4529-9dbf-a0703cc7b25e",
+                "childCardinality": "0..N",
+                "relationPairs": [
+                    {
+                        "parentColumnModelId": "88b9a5ad-ad2e-45c3-8d22-143ffa4dd967",
+                        "childColumnModelId": "fac0ad59-b8c6-418e-90ca-7b667983c904"
+                    }
+                ],
+                "onUpdateAction": "CASCADE",
+                "onDeleteAction": "RESTRICT"
+            },
+            "lineViewModel": {
+                "strokeWidth": 1,
+                "edges": [],
+                "orthogonalLines": [],
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
+            },
+            "labelViewModel": {
+                "label": "pelanggan_kendaraan",
+                "position": {
+                    "segment": -1,
+                    "fraction": 0,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "color": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                },
+                "style": {
+                    "bold": false,
+                    "italic": false,
+                    "strikethrough": false,
+                    "fontSize": 10
+                }
+            },
+            "createdAt": "2026-11-24T02:27:28.522Z"
+        }
+    ],
+    "foregroundMemos": [],
+    "backgroundMemos": [],
+    "erdSettingModel": {
+        "displayStyle": {
+            "styleName": "Both"
+        },
+        "exportDdlSetting": {
+            "fileName": "project-akhir-OOP",
+            "withTable": true,
+            "withIndex": true,
+            "withForeignKey": true,
+            "withSchema": true,
+            "withComment": true,
+            "commentStyle": "logical_name",
+            "commentSeparator": " : "
+        }
+    },
+    "databaseSetting": {
+        "databaseType": "mariadb",
+        "columnTypes": [
+            {
+                "id": 1,
+                "name": "bit",
+                "description": "ビット値型",
+                "baseQuery": "BIT",
+                "category": "bit"
+            },
+            {
+                "id": 2,
+                "name": "bit (m)",
+                "description": "ビット値型",
+                "baseQuery": "BIT[[PARAM]]",
+                "category": "bit",
+                "withPrecision": true
+            },
+            {
+                "id": 6,
+                "name": "boolean",
+                "description": "TINYINT(1) のシノニム",
+                "baseQuery": "BOOLEAN",
+                "category": "bit"
+            },
+            {
+                "id": 10,
+                "name": "tinyint",
+                "description": "非常に小さい整数。 符号付きの範囲は -128 から 127 です。 符号なしの範囲は 0 から 255 です。",
+                "baseQuery": "TINYINT",
+                "category": "integer",
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 11,
+                "name": "smallint",
+                "description": "小さい整数。 符号付きの範囲は -32768 から 32767 です。 符号なしの範囲は 0 から 65535 です。",
+                "baseQuery": "SMALLINT",
+                "category": "integer",
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 13,
+                "name": "mediumint",
+                "description": "中間サイズの整数。 符号付きの範囲は -8388608 から 8388607 です。 符号なしの範囲は 0 から 16777215 です。",
+                "baseQuery": "MEDIUMINT",
+                "category": "integer",
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 15,
+                "name": "int",
+                "description": "普通サイズの整数。 符号付きの範囲は -2147483648 から 2147483647 です。 符号なしの範囲は 0 から 4294967295 です。",
+                "baseQuery": "INT",
+                "category": "integer",
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 17,
+                "name": "bigint",
+                "description": "大きい整数。 符号付きの範囲は -9223372036854775808 から 9223372036854775807 です。 符号なしの範囲は 0 から 18446744073709551615 です。",
+                "baseQuery": "BIGINT",
+                "category": "integer",
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 20,
+                "name": "tinyint (m)",
+                "description": "非常に小さい整数。 符号付きの範囲は -128 から 127 です。 符号なしの範囲は 0 から 255 です。",
+                "baseQuery": "TINYINT[[PARAM]]",
+                "category": "integer",
+                "withPrecision": true,
+                "withUnsigned": true
+            },
+            {
+                "id": 21,
+                "name": "smallint (m)",
+                "description": "小さい整数。 符号付きの範囲は -32768 から 32767 です。 符号なしの範囲は 0 から 65535 です。",
+                "baseQuery": "SMALLINT[[PARAM]]",
+                "category": "integer",
+                "withPrecision": true,
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 23,
+                "name": "mediumint (m)",
+                "description": "中間サイズの整数。 符号付きの範囲は -8388608 から 8388607 です。 符号なしの範囲は 0 から 16777215 です。",
+                "baseQuery": "MEDIUMINT[[PARAM]]",
+                "category": "integer",
+                "withPrecision": true,
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 25,
+                "name": "int (m)",
+                "description": "普通サイズの整数。 符号付きの範囲は -2147483648 から 2147483647 です。 符号なしの範囲は 0 から 4294967295 です。",
+                "baseQuery": "INT[[PARAM]]",
+                "category": "integer",
+                "withPrecision": true,
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 27,
+                "name": "bigint (m)",
+                "description": "大きい整数。 符号付きの範囲は -9223372036854775808 から 9223372036854775807 です。 符号なしの範囲は 0 から 18446744073709551615 です。",
+                "baseQuery": "BIGINT[[PARAM]]",
+                "category": "integer",
+                "withPrecision": true,
+                "withUnsigned": true,
+                "withAutoIncrement": true
+            },
+            {
+                "id": 31,
+                "name": "float",
+                "description": "小さい (単精度) 浮動小数点数。 許可される値は、-3.402823466E+38 から -1.175494351E-38、0、および 1.175494351E-38 から 3.402823466E+38 です。",
+                "baseQuery": "FLOAT",
+                "category": "decimal",
+                "withAutoIncrement": true
+            },
+            {
+                "id": 33,
+                "name": "double",
+                "description": "普通サイズ (倍精度) の浮動小数点数。 許可されている値は、-1.7976931348623157E+308 から -2.2250738585072014E-308、0、および 2.2250738585072014E-308 から 1.7976931348623157E+308 です。",
+                "baseQuery": "DOUBLE",
+                "category": "decimal",
+                "withAutoIncrement": true
+            },
+            {
+                "id": 35,
+                "name": "decimal",
+                "description": "固定小数点数。 桁数10 (精度) で、小数点以下の桁数0です。",
+                "baseQuery": "DECIMAL",
+                "category": "decimal",
+                "withAutoIncrement": true
+            },
+            {
+                "id": 36,
+                "name": "numeric",
+                "description": "DECIMAL のシノニムです。固定小数点数。 桁数10 (精度) で、小数点以下の桁数0です。",
+                "baseQuery": "NUMERIC",
+                "category": "decimal",
+                "withAutoIncrement": true
+            },
+            {
+                "id": 41,
+                "name": "float (m, d)",
+                "description": "小さい (単精度) 浮動小数点数。 許可される値は、-3.402823466E+38 から -1.175494351E-38、0、および 1.175494351E-38 から 3.402823466E+38 です。",
+                "baseQuery": "FLOAT[[PARAM]]",
+                "category": "decimal",
+                "withPrecision": true,
+                "withScale": true
+            },
+            {
+                "id": 42,
+                "name": "float (p)",
+                "description": "浮動小数点数です。p は精度をビットで表現します。",
+                "baseQuery": "FLOAT[[PARAM]]",
+                "category": "decimal",
+                "withPrecision": true
+            },
+            {
+                "id": 43,
+                "name": "double (m, d)",
+                "description": "普通サイズ (倍精度) の浮動小数点数。 許可されている値は、-1.7976931348623157E+308 から -2.2250738585072014E-308、0、および 2.2250738585072014E-308 から 1.7976931348623157E+308 です。",
+                "baseQuery": "DOUBLE[[PARAM]]",
+                "category": "decimal",
+                "withPrecision": true,
+                "withScale": true
+            },
+            {
+                "id": 45,
+                "name": "decimal (m, d)",
+                "description": "固定小数点数。 M は桁数の合計 (精度) で、D は小数点以下の桁数 (スケール) です。",
+                "baseQuery": "DECIMAL[[PARAM]]",
+                "category": "decimal",
+                "withPrecision": true,
+                "withScale": true
+            },
+            {
+                "id": 46,
+                "name": "numeric (m, d)",
+                "description": "DECIMAL のシノニムです。固定小数点数。 M は桁数の合計 (精度) で、D は小数点以下の桁数 (スケール) です。",
+                "baseQuery": "NUMERIC[[PARAM]]",
+                "category": "decimal",
+                "withPrecision": true,
+                "withScale": true
+            },
+            {
+                "id": 101,
+                "name": "date",
+                "description": "日付です。 サポートしている範囲は \"1000-01-01\" から \"9999-12-31\" です。",
+                "baseQuery": "DATE",
+                "category": "timestamp",
+                "defaultValueCandidates": [
+                    "(CURRENT_DATE)"
+                ]
+            },
+            {
+                "id": 131,
+                "name": "time",
+                "description": "時間です。 範囲は、\"-838:59:59.000000\" から \"838:59:59.000000\" です。",
+                "baseQuery": "TIME",
+                "category": "timestamp",
+                "defaultValueCandidates": [
+                    "(CURRENT_TIME)"
+                ]
+            },
+            {
+                "id": 141,
+                "name": "time (p)",
+                "description": "時間です。 範囲は、\"-838:59:59.000000\" から \"838:59:59.000000\" です。",
+                "baseQuery": "TIME[[PARAM]]",
+                "category": "timestamp",
+                "withPrecision": true,
+                "defaultValueCandidates": [
+                    "(CURRENT_TIME)"
+                ]
+            },
+            {
+                "id": 112,
+                "name": "datetime",
+                "description": "日付と時間の組み合わせです。 サポートしている範囲は \"1000-01-01 00:00:00.000000\" から \"9999-12-31 23:59:59.999999\" です。",
+                "baseQuery": "DATETIME",
+                "category": "timestamp",
+                "defaultValueCandidates": [
+                    "CURRENT_TIMESTAMP",
+                    "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+                ]
+            },
+            {
+                "id": 115,
+                "name": "timestamp",
+                "description": "タイムスタンプです。 範囲は \"1970-01-01 00:00:01.000000\" UTC から \"2038-01-19 03:14:07.999999\" UTC です。",
+                "baseQuery": "TIMESTAMP",
+                "category": "timestamp",
+                "defaultValueCandidates": [
+                    "CURRENT_TIMESTAMP",
+                    "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+                ]
+            },
+            {
+                "id": 122,
+                "name": "datetime (p)",
+                "description": "日付と時間の組み合わせです。 サポートしている範囲は \"1000-01-01 00:00:00.000000\" から \"9999-12-31 23:59:59.999999\" です。",
+                "baseQuery": "DATETIME[[PARAM]]",
+                "category": "timestamp",
+                "withPrecision": true,
+                "defaultValueCandidates": [
+                    "CURRENT_TIMESTAMP[[PARAM]]",
+                    "CURRENT_TIMESTAMP[[PARAM]] ON UPDATE CURRENT_TIMESTAMP[[PARAM]]"
+                ]
+            },
+            {
+                "id": 125,
+                "name": "timestamp (p)",
+                "description": "タイムスタンプです。 範囲は \"1970-01-01 00:00:01.000000\" UTC から \"2038-01-19 03:14:07.999999\" UTC です。",
+                "baseQuery": "TIMESTAMP[[PARAM]]",
+                "category": "timestamp",
+                "withPrecision": true,
+                "defaultValueCandidates": [
+                    "CURRENT_TIMESTAMP[[PARAM]]",
+                    "CURRENT_TIMESTAMP[[PARAM]] ON UPDATE CURRENT_TIMESTAMP[[PARAM]]"
+                ]
+            },
+            {
+                "id": 151,
+                "name": "year",
+                "description": "4 桁形式の年。",
+                "baseQuery": "YEAR",
+                "category": "timestamp"
+            },
+            {
+                "id": 301,
+                "name": "char",
+                "description": "格納時に必ず、指定された長さになるように右側がスペースで埋められる固定長文字列です。",
+                "baseQuery": "CHAR",
+                "category": "text"
+            },
+            {
+                "id": 311,
+                "name": "char (m)",
+                "description": "格納時に必ず、指定された長さになるように右側がスペースで埋められる固定長文字列です。",
+                "baseQuery": "CHAR[[PARAM]]",
+                "category": "text",
+                "withPrecision": true
+            },
+            {
+                "id": 312,
+                "name": "varchar (m)",
+                "description": "可変長文字列です。",
+                "baseQuery": "VARCHAR[[PARAM]]",
+                "category": "text",
+                "withPrecision": true
+            },
+            {
+                "id": 321,
+                "name": "tinytext",
+                "description": "最大長が 255 文字の TEXT カラム。",
+                "baseQuery": "TINYTEXT",
+                "category": "text"
+            },
+            {
+                "id": 322,
+                "name": "text",
+                "description": "最大長が 65,535 文字の TEXT カラム。",
+                "baseQuery": "TEXT",
+                "category": "text"
+            },
+            {
+                "id": 323,
+                "name": "text (m)",
+                "description": "最大長が 65,535 文字の TEXT カラム。",
+                "baseQuery": "TEXT[[PARAM]]",
+                "category": "text",
+                "withPrecision": true
+            },
+            {
+                "id": 324,
+                "name": "mediumtext",
+                "description": "最大長が 16,777,215 文字の TEXT カラム。",
+                "baseQuery": "MEDIUMTEXT",
+                "category": "text"
+            },
+            {
+                "id": 325,
+                "name": "longtext",
+                "description": "最大長が 4G 文字の TEXT カラム。",
+                "baseQuery": "LONGTEXT",
+                "category": "text"
+            },
+            {
+                "id": 3,
+                "name": "binary (m)",
+                "description": "バイナリバイト文字列を格納します。",
+                "baseQuery": "BINARY[[PARAM]]",
+                "category": "bit",
+                "withPrecision": true
+            },
+            {
+                "id": 5,
+                "name": "varbinary (m)",
+                "description": "バイナリバイト文字列を格納します。",
+                "baseQuery": "VARBINARY[[PARAM]]",
+                "category": "bit",
+                "withPrecision": true
+            },
+            {
+                "id": 361,
+                "name": "tinyblob",
+                "description": "最大長が 255 バイトの BLOB カラム。",
+                "baseQuery": "TINYBLOB",
+                "category": "bit"
+            },
+            {
+                "id": 363,
+                "name": "blob",
+                "description": "最大長が 65,535 バイトの BLOB カラム。",
+                "baseQuery": "BLOB",
+                "category": "bit"
+            },
+            {
+                "id": 364,
+                "name": "blob (m)",
+                "description": "最大長が 65,535 バイトの BLOB カラム。",
+                "baseQuery": "BLOB[[PARAM]]",
+                "category": "bit",
+                "withPrecision": true
+            },
+            {
+                "id": 365,
+                "name": "mediumblob",
+                "description": "最大長が 16,777,215 バイトの BLOB カラム。",
+                "baseQuery": "MEDIUMBLOB",
+                "category": "bit"
+            },
+            {
+                "id": 367,
+                "name": "longblob",
+                "description": "最大長が 4G バイトの BLOB カラム。",
+                "baseQuery": "LONGBLOB",
+                "category": "bit"
+            },
+            {
+                "id": 422,
+                "name": "json",
+                "description": "文書の型式であるJSONデータを格納するために使用されるデータ型。",
+                "baseQuery": "JSON",
+                "category": "other"
+            },
+            {
+                "id": 2001,
+                "name": "geometry",
+                "description": "空間データを格納するために使用されるデータ型。点、線、多角形、およびその他の形状を含めることができます。",
+                "baseQuery": "GEOMETRY",
+                "category": "other"
+            },
+            {
+                "id": 2011,
+                "name": "point",
+                "description": "GEOMETRYデータ型の1つであり、2次元空間上の単一の点を表します。",
+                "baseQuery": "POINT",
+                "category": "other"
+            },
+            {
+                "id": 2012,
+                "name": "linestring",
+                "description": "GEOMETRYデータ型の1つであり、2次元空間上の複数の点を結ぶ直線セグメントの連続したセットを表します。",
+                "baseQuery": "LINESTRING",
+                "category": "other"
+            },
+            {
+                "id": 2013,
+                "name": "polygon",
+                "description": "GEOMETRYデータ型の1つであり、2次元平面上の単一の領域を表す閉じたループの集合です。",
+                "baseQuery": "POLYGON",
+                "category": "other"
+            },
+            {
+                "id": 2021,
+                "name": "multipoint",
+                "description": "GEOMETRYデータ型の1つであり、複数の点を表す複数のPOINTオブジェクトの集合です。",
+                "baseQuery": "MULTIPOINT",
+                "category": "other"
+            },
+            {
+                "id": 2022,
+                "name": "multilinestring",
+                "description": "GEOMETRYデータ型の1つであり、複数の線分を表す複数のLINESTRINGオブジェクトの集合です。",
+                "baseQuery": "MULTILINESTRING",
+                "category": "other"
+            },
+            {
+                "id": 2023,
+                "name": "multipolygon",
+                "description": "GEOMETRYデータ型の1つであり、複数のポリゴンを表す複数のPOLYGONオブジェクトの集合です。",
+                "baseQuery": "MULTIPOLYGON",
+                "category": "other"
+            },
+            {
+                "id": 2031,
+                "name": "geometrycollection",
+                "description": "GEOMETRYデータ型の1つであり、複数のGEOMETRYオブジェクトの集合を表します。",
+                "baseQuery": "GEOMETRYCOLLECTION",
+                "category": "other"
+            },
+            {
+                "id": 2101,
+                "name": "enum",
+                "description": "文字列のリストの中から1つを選択するために使用されるデータ型。",
+                "baseQuery": "ENUM",
+                "category": "other"
+            },
+            {
+                "id": 2102,
+                "name": "set",
+                "description": "ENUMの拡張版であり、文字列のリストから複数の選択肢を選択するために使用されるデータ型。",
+                "baseQuery": "SET",
+                "category": "other"
+            },
+            {
+                "id": 411,
+                "name": "uuid",
+                "description": "128ビットのUUID値を格納するデータ型 (MariaDB 10.7+)。",
+                "baseQuery": "UUID",
+                "category": "other"
+            },
+            {
+                "id": 1113,
+                "name": "inet4",
+                "description": "IPv4アドレスを格納するデータ型 (MariaDB 10.10+)。",
+                "baseQuery": "INET4",
+                "category": "other"
+            },
+            {
+                "id": 1114,
+                "name": "inet6",
+                "description": "IPv6アドレスを格納するデータ型 (MariaDB 10.5+)。",
+                "baseQuery": "INET6",
+                "category": "other"
+            },
+            {
+                "id": 0,
+                "name": "",
+                "description": "",
+                "baseQuery": "",
+                "category": "other"
+            }
+        ],
+        "version": 20261107
+    }
+}
