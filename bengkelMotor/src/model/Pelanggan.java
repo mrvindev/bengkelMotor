@@ -1,26 +1,38 @@
 package bengkelMotor.src.model;
 
 public class Pelanggan {
+    public enum JenisKelamin {
+        LAKI_LAKI("L"),
+        PEREMPUAN("P");
+
+        private final String kode;
+
+        JenisKelamin(String kode) {
+            this.kode = kode;
+        }
+
+        public String getKode() {
+            return kode;
+        }
+    }
+
     private int idPelanggan;
     private String namaPelanggan;
-    private enum JenisKelamin {
-        LAKI_LAKI,
-        PEREMPUAN
-    }
-    private String Alamat;
-    private String NoTelp;
+    private JenisKelamin jenisKelamin;
+    private String alamat;
+    private String noTelp;
 
-    public Pelanggan(int IdPelanggan, String namaPelanggan, JenisKelamin jenisKelamin, String Alamat, String NoTelp) {
-        this.idPelanggan = IdPelanggan;
+    public Pelanggan(int idPelanggan, String namaPelanggan, JenisKelamin jenisKelamin, String alamat, String noTelp) {
+        this.idPelanggan = idPelanggan;
         this.namaPelanggan = namaPelanggan;
         this.jenisKelamin = jenisKelamin;
-        this.Alamat = Alamat;
-        this.NoTelp = NoTelp;
+        this.alamat = alamat;
+        this.noTelp = noTelp;
     }
 
     //getter & setter
-    public String getIdPelanggan() {
-        return String.valueOf(idPelanggan);
+    public int getIdPelanggan() {
+        return idPelanggan;
     }
     public void setIdPelanggan(int idPelanggan) {
         this.idPelanggan = idPelanggan;
@@ -31,19 +43,22 @@ public class Pelanggan {
     public void setNamaPelanggan(String namaPelanggan) {
         this.namaPelanggan = namaPelanggan;
     }
+    public JenisKelamin getJenisKelamin() {
+        return jenisKelamin;
+    }
     public void setJenisKelamin(JenisKelamin jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
     }
     public String getAlamat() {
-        return Alamat;
+        return alamat;
     }
-    public void setAlamat(String Alamat) {
-        this.Alamat = Alamat;
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
     }
     public String getNoTelp() {
-        return NoTelp;
+        return noTelp;
     }
-    public void setNoTelp(String NoTelp) {
-        this.NoTelp = NoTelp;
+    public void setNoTelp(String noTelp) {
+        this.noTelp = noTelp;
     }
 }
