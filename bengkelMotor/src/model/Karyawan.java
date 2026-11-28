@@ -1,30 +1,40 @@
 package bengkelMotor.src.model;
 
 public class Karyawan {
+    public enum JenisKelamin {
+        LAKI_LAKI("L"),
+        PEREMPUAN("P");
+
+        private final String kode;
+
+        JenisKelamin(String kode) {
+            this.kode = kode;
+        }
+
+        public String getKode() {
+            return kode;
+        }
+    }
+
     private int idKaryawan;
     private String namaKaryawan;
-    private enum JenisKelamin {
-        LAKI_LAKI,
-        PEREMPUAN
-    }
-    private String Alamat;
-    private String NoTelp;
-    privte String Jabatan;
+    private JenisKelamin jenisKelamin;
+    private String alamat;
+    private String noTelp;
+    private String jabatan;
 
-
-
-    public Karyawan(int IdKaryawan, String namaKaryawan, JenisKelamin jenisKelamin, String Alamat, String NoTelp, String Jabatan) {
-        this.idKaryawan = IdKaryawan;
+    public Karyawan(int idKaryawan, String namaKaryawan, JenisKelamin jenisKelamin, String alamat, String noTelp, String jabatan) {
+        this.idKaryawan = idKaryawan;
         this.namaKaryawan = namaKaryawan;
         this.jenisKelamin = jenisKelamin;
-        this.Alamat = Alamat;
-        this.NoTelp = NoTelp;
-        this.Jabatan = Jabatan;
+        this.alamat = alamat;
+        this.noTelp = noTelp;
+        this.jabatan = jabatan;
     }
 
     //getter & setter
-    public String getIdKaryawan() {
-        return String.valueOf(idKaryawan);
+    public int getIdKaryawan() {
+        return idKaryawan;
     }
     public void setIdKaryawan(int idKaryawan) {
         this.idKaryawan = idKaryawan;
@@ -35,25 +45,28 @@ public class Karyawan {
     public void setNamaKaryawan(String namaKaryawan) {
         this.namaKaryawan = namaKaryawan;
     }
+    public JenisKelamin getJenisKelamin() {
+        return jenisKelamin;
+    }
     public void setJenisKelamin(JenisKelamin jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
     }
     public String getAlamat() {
-        return Alamat;
+        return alamat;
     }
-    public void setAlamat(String Alamat) {
-        this.Alamat = Alamat;
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
     }
     public String getNoTelp() {
-        return NoTelp;
+        return noTelp;
     }
-    public void setNoTelp(String NoTelp) {
-        this.NoTelp = NoTelp;
+    public void setNoTelp(String noTelp) {
+        this.noTelp = noTelp;
     }
     public String getJabatan() {
-        return Jabatan;
+        return jabatan;
     }
-    public void setJabatan(String Jabatan) {
-        this.Jabatan = Jabatan;
+    public void setJabatan(String jabatan) {
+        this.jabatan = jabatan;
     }
 }
